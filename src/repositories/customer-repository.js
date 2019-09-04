@@ -13,9 +13,9 @@ class CustomerRepository {
         const result = await DbManager.executeQuery(ALL_CUSTOMERS_SQL);
 
         if (result.recordset) {
-            result.recordset.forEach(element => {
-                element.__proto__ = new Customer();
-            });
+            // result.recordset.forEach(element => {
+            //     element.__proto__ = new Customer();
+            // });
 
             customers = result.recordset;
         }
