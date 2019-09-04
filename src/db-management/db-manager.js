@@ -13,7 +13,7 @@ class DbManager {
         const pool = await sql.connect(DB_CONFIG);
         const result = await pool.query(statement);
 
-        await sql.close();
+        //await sql.close();
 
         return result;
     }
