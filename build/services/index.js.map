@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/services/index.js"],"names":["CustomerService"],"mappings":";;;;;;;AAAA;;QAGIA,e,GAAAA,gC","sourcesContent":["import { CustomerService } from './customer-service';\r\n\r\nexport {\r\n    CustomerService\r\n};\r\n"],"file":"index.js"}

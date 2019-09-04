@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/db-management/index.js"],"names":["DbManager"],"mappings":";;;;;;;AAAA;;QAGIA,S,GAAAA,oB","sourcesContent":["import { DbManager } from './db-manager';\r\n\r\nexport {\r\n    DbManager\r\n};\r\n"],"file":"index.js"}
