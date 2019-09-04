@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 const MIN_POOL = 1;
-const MAX_POOL = 50;
+const MAX_POOL = 1000;
 const DEFAULT_PORT = 9090;
 
 class GlobalConfiguration {
