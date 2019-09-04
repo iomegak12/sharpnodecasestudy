@@ -20,7 +20,7 @@ class CustomerRepository {
             customers = result.recordset;
         }
 
-        return customers;
+        return result;
     }
 
     async getCustomer(id) {

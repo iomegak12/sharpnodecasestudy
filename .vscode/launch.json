@@ -11,8 +11,8 @@
             "program": "${workspaceFolder}\\build\\index.js",
             "preLaunchTask": "Build Application",
             "env": {
-                "DB_SERVER": "iomegasqlserverv3.database.windows.net",
-                "DB_NAME": "iomegasqldatabasev3",
+                "DB_SERVER": "consultingsqlserver.database.windows.net",
+                "DB_NAME": "consultingsqldatabase",
                 "DB_USER": "iomegaadmin",
                 "DB_PASSWORD": "YWRtaW5AMTIz",
                 "HOST_PORT": "9090"

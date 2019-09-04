@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/schemas/index.js"],"names":["Customers"],"mappings":";;;;;;;AAAA;;QAGIA,S,GAAAA,oB","sourcesContent":["import { Customers } from './Customers';\r\n\r\nexport {\r\n    Customers\r\n};\r\n"],"file":"index.js"}
