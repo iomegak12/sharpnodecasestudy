@@ -11,9 +11,9 @@
             "program": "${workspaceFolder}\\build\\index.js",
             "preLaunchTask": "Build Application",
             "env": {
-                "DB_SERVER": "ramthinkpad",
-                "DB_NAME": "CaseStudyDB",
-                "DB_USER": "sa",
+                "DB_SERVER": "iomegasqlserverv3.database.windows.net",
+                "DB_NAME": "iomegasqldatabasev3",
+                "DB_USER": "iomegaadmin",
                 "DB_PASSWORD": "YWRtaW5AMTIz",
                 "HOST_PORT": "9090"
             }

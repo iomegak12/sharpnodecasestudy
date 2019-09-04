@@ -1,5 +1,5 @@
 const MIN_POOL = 1;
-const MAX_POOL = 100;
+const MAX_POOL = 50;
 const DEFAULT_PORT = 9090;
 
 class GlobalConfiguration {
@@ -21,6 +21,7 @@ class GlobalConfiguration {
             password: this.password,
             server: this.dbServerName,
             database: this.dbName,
+            encrypt: true,
             pool: {
                 min: MIN_POOL,
                 max: MAX_POOL,

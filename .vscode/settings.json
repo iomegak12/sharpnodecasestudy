@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7293f3cb-5705-4319-a0cc-15472af46eed/resourceGroups/sharpresourcegroup/providers/Microsoft.Web/sites/iomegaapiservices",
+    "appService.deploySubpath": ""
+}
