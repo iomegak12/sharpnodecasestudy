@@ -18,14 +18,12 @@ const INVALID_CUSTOMER_ID = 'Invalid Customer Id Specified!';
 class CustomerRepository {
   async getAllCustomers() {
     let customers = [];
-    const result = await _dbManager.DbManager.executeQuery(ALL_CUSTOMERS_SQL);
-
-    if (result.recordset) {
-      // result.recordset.forEach(element => {
-      //     element.__proto__ = new Customer();
-      // });
-      customers = result.recordset;
-    }
+    const result = await _dbManager.DbManager.executeQuery(ALL_CUSTOMERS_SQL); // if (result.recordset) {
+    //     // result.recordset.forEach(element => {
+    //     //     element.__proto__ = new Customer();
+    //     // });
+    //     customers = result.recordset;
+    // }
 
     return result;
   }

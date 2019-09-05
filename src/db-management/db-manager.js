@@ -37,6 +37,8 @@ class DbManager {
     static async executeQuery() {
         let results = await CustomerModel.findAll();
 
+        // let filteredCustomer = await CustomerModel.findOne({customerId: 1});
+
         return results;
     }
 

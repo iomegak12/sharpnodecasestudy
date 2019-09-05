@@ -41,7 +41,8 @@ class DbManager {
   //     return result;
   // }
   static async executeQuery() {
-    let results = await CustomerModel.findAll();
+    let results = await CustomerModel.findAll(); // let filteredCustomer = await CustomerModel.findOne({customerId: 1});
+
     return results;
   } // static async executePrepareQuery(statement, parameterDefs, parameterValues) {
   //     if (!statement) {

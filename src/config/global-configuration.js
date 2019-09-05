@@ -1,5 +1,5 @@
 const MIN_POOL = 1;
-const MAX_POOL = 400;
+const MAX_POOL = 600;
 const DEFAULT_PORT = 9090;
 
 class GlobalConfiguration {
